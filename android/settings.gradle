@@ -1,0 +1,3 @@
+rootProject.name = 'ZeplinToDo'
+
+include ':app'
