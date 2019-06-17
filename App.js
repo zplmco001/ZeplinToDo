@@ -14,13 +14,13 @@ export default class App extends Component {
 
   componentWillMount(){
     var firebaseConfig = {
-      apiKey: "AIzaSyAFXgpyAjBPEE8vbbBq44VxihWArcJ8k_I",
-      authDomain: "zeplincrm.firebaseapp.com",
-      databaseURL: "https://zeplincrm.firebaseio.com",
-      projectId: "zeplincrm",
-      storageBucket: "zeplincrm.appspot.com",
-      messagingSenderId: "48624249840",
-      appId: "1:48624249840:web:ad16ac0457598b23"
+      apiKey: "",
+      authDomain: "",
+      databaseURL: "",
+      projectId: "",
+      storageBucket: "",
+      messagingSenderId: "",
+      appId: ""
     };
   // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
